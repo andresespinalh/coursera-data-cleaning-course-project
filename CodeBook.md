@@ -1,6 +1,6 @@
 # Code book for 'tidy_data.txt'
 
-The data set that this code book pertains to is located in the `tidy_data.txt` file of this repository.
+This codebook correspondes to the `tidy_data.txt` file of this repository.
 
 
 
