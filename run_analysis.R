@@ -69,4 +69,4 @@ result <- merge( x = activities, y = subject.activity.values, by.x = 'ActivityId
 summary <- result[, lapply( .SD, mean, na.rm=TRUE ), by = .( SubjectID, ActivityName, ActivityId )][order( SubjectID, ActivityName, ActivityId)]
 
 ## OUTPUT FILE GENERATION ##
-write.table( summary, 'tidy_data.txt' )
+write.table( summary, 'tidy_data.txt', row.name=FALSE )
